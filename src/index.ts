@@ -2,7 +2,7 @@ import { ClipboardDirective } from './clipboard.directive';
 import { CLIPBOARD_SERVICE_PROVIDER } from './clipboard.service';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { WindowTokenModule } from 'ngx-window-token';
+import { WindowTokenModule } from './windows.token';
 export * from './clipboard.directive';
 export * from './clipboard.service';
 
