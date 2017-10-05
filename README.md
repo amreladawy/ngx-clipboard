@@ -25,7 +25,7 @@ The code are pretty much the same, in 8.0.0 it uses InjectionToken which require
 You can get it on npm.
 
 ```
-npm install ngx-clipboard --save
+npm install ngx-clipboard-cf --save
 ```
 
 ## Build project
@@ -42,7 +42,7 @@ If you use SystemJS to load your files, you might have to update your config:
 ```js
 System.config({
     map: {
-        'ngx-clipboard': 'node_modules/ngx-clipboard'
+        'ngx-clipboard-cf': 'node_modules/ngx-clipboard-cf'
     }
 });
 ```
