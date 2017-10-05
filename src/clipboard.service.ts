@@ -1,6 +1,6 @@
 import { Inject, Injectable, Optional, Renderer, SkipSelf, InjectionToken } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
-import { WINDOW } from 'ngx-window-token';
+import { WINDOW } from './window.token';
 
 @Injectable()
 export class ClipboardService {
